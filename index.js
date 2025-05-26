@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 
 // Allow CORS from your IONOS domain (replace with your real domain)
 app.use(cors({
-  origin: "https://your-ionos-domain.com"
+  origin: "https://dragonmun.cl"
 }));
 
 app.use(express.json());
